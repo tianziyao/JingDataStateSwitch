@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JingDataStateSwitch_Example' do
+  pod 'JingDataStateSwitch', :path => '../'
+
+  target 'JingDataStateSwitch_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
