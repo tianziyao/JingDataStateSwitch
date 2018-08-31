@@ -1,0 +1,31 @@
+{
+  "name": "JingDataStateSwitch",
+  "version": "0.1.0",
+  "summary": "页面状态切换.",
+  "homepage": "https://github.com/tianziyao/JingDataStateSwitch",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tianziyao": "tianziyao@jingdata.com"
+  },
+  "source": {
+    "git": "https://github.com/tianziyao/JingDataStateSwitch.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "JingDataStateSwitch/Classes/**/*",
+  "resource_bundles": {
+    "JingDataStateSwitch": [
+      "JingDataStateSwitch/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "JingDataPodResourceLoader": [
+
+    ]
+  }
+}

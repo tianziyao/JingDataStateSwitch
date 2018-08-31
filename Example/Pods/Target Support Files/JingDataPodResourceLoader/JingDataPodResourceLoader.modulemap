@@ -1,0 +1,6 @@
+framework module JingDataPodResourceLoader {
+  umbrella header "JingDataPodResourceLoader-umbrella.h"
+
+  export *
+  module * { export * }
+}

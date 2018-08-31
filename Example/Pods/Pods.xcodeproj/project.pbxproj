@@ -1,0 +1,1298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0338F515E64A08C5FFF55E816D6719C7 /* Pods-JingDataStateSwitch_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9798C8BE9861F46B65849A26677E930D /* Pods-JingDataStateSwitch_Example-dummy.m */; };
+		0558A83D32F1A2C6F53609EF7F48B997 /* JingDataStateSwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7537E38EAC85D0DF2275B60524E9B5F /* JingDataStateSwitch-dummy.m */; };
+		09C3474DDF14F6488BEAD8FF652EE6BC /* JingDataPhoneScreen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECFC3FA7C1F2C9F3A86683B13CA9F57 /* JingDataPhoneScreen-dummy.m */; };
+		1AFE273A67F5EE4C776434018B6EBB19 /* common_toast_loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ABBA771AC4221979204EC7F5896FB95 /* common_toast_loading@2x.png */; };
+		1C4840624D2B4451AAD154B5EFBC572E /* common_placeholder_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2F439EEBB68D2455A2A9633C30FC1A9 /* common_placeholder_error@2x.png */; };
+		28E00140F705D97EB03AB8DE420337A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B315C817F7A388FE29984B4FB707403 /* Foundation.framework */; };
+		373EF418D919405FE3809A584DBE9DD2 /* JingDataPodResourceLoader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E080511421E4618DBB143557BE854843 /* JingDataPodResourceLoader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		390A51FE7C9CAF59F168788B055AB825 /* JingDataStateSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B689995D302C24F95003AC6FFB072AC0 /* JingDataStateSwitch.swift */; };
+		3B8F01F5C71D98CE8771725790A433A4 /* JingDataPodResourceLoader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 697058E75C94837468B25203F0107197 /* JingDataPodResourceLoader-dummy.m */; };
+		3CE3E305859FDF95E2D8012D42A9F902 /* JingDataPhoneScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E78C4AED810F9F2ABF78B66AF3C37EB /* JingDataPhoneScreen.swift */; };
+		3D5DD624E99149E40A4467236E94AC4D /* JingDataPodResourceLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050485554E19273AFF3DC0C9B423E0D4 /* JingDataPodResourceLoader.framework */; };
+		4C5C6746CB3958448A2DB4637ADE9A66 /* Pods-JingDataStateSwitch_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70CB1BEA44AC55F6D37D78EAD4D499B6 /* Pods-JingDataStateSwitch_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E426FB7551C95A61198F98D4E399633 /* JingDataStateSwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 988E45AD2AB9E23EC5AC5B854029CB62 /* JingDataStateSwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		666FF0D5243A5A06FAC4BE69E74061A9 /* Pods-JingDataStateSwitch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2D479EB42B282A8864A76D978D95A4 /* Pods-JingDataStateSwitch_Tests-dummy.m */; };
+		6D2EBB9ED1445504EBF31DC73B63DE45 /* common_placeholder_error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88F26D2AC95ED957468C47122194427B /* common_placeholder_error@3x.png */; };
+		96281F37516E933993DCB016B87602EC /* JingDataPhoneScreen-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 770577B4CCD47733CCDF43EAA057D3EE /* JingDataPhoneScreen-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AF76A9F5E41246BB1D0C4B158270777 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B315C817F7A388FE29984B4FB707403 /* Foundation.framework */; };
+		B27314FCA842CBF901BF5B5833A8AD13 /* common_placeholder_noAuth@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F68A4BC787FAE27DFCE43C9D9EB3E12 /* common_placeholder_noAuth@3x.png */; };
+		B5C30C061A4890B2AEA202F040288FC6 /* Pods-JingDataStateSwitch_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99529C224B34AD60FE464753A0D56211 /* Pods-JingDataStateSwitch_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B93A33D633E026A6B4F426B0C63792A3 /* common_placeholder_noAuth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 439A6368443EBF414BADBC36FAF00ACE /* common_placeholder_noAuth@2x.png */; };
+		CF6AFEB6DA3EEF59E3539D06E494F5A1 /* JingDataPodResourceLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9376D9F12A105A9DA40D700432267B4C /* JingDataPodResourceLoader.swift */; };
+		D01166C666D1F48B6C5332184EF173D5 /* common_placeholder_nodata@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A244E295BF40990290EBEE5B90690CA2 /* common_placeholder_nodata@3x.png */; };
+		D3B5EC2210D67AF639EAE2B31EFF56F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B315C817F7A388FE29984B4FB707403 /* Foundation.framework */; };
+		D5B379484810A30D937B73E74B8D436E /* JingDataPhoneScreen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAE1056E83D13896400318171FE0007 /* JingDataPhoneScreen.framework */; };
+		DEB5F0AB11AE99DA431B3EC035CC126D /* JingDataStateSwitch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D21E18B05DB8F7D49F303D955288E48C /* JingDataStateSwitch.bundle */; };
+		E072D81568673259D1E585374D239E3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B315C817F7A388FE29984B4FB707403 /* Foundation.framework */; };
+		EDB8F4D41FE9B57DF3532656F36FF3F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B315C817F7A388FE29984B4FB707403 /* Foundation.framework */; };
+		EDF2B8FE35C44FF0AB9654BAA9B2F30C /* common_toast_loading@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3280137E51E74108B244BF4873C7A3 /* common_toast_loading@3x.png */; };
+		EFDBB8AD541EC6B72C979800ADFD5244 /* JingDataPhoneScreen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAE1056E83D13896400318171FE0007 /* JingDataPhoneScreen.framework */; };
+		F4B5264B8FB73D11636DFE7E23E70BF7 /* common_placeholder_nodata@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F25701437E2383CB9633AA5A46B35731 /* common_placeholder_nodata@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B0E91E3042569D3ECAD229C4E2FB6E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDEA1B5C6BF90949A763D4F669E547EF;
+			remoteInfo = "Pods-JingDataStateSwitch_Example";
+		};
+		18C7388D9C26DB672F021BAAB2748551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 222D5C82884C1286E0CEE0DDA4CB6AD4;
+			remoteInfo = JingDataPhoneScreen;
+		};
+		750AF7DA1AFA892EBC474F21A76769E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD528D74172839EF9C73CF78C3C2A18;
+			remoteInfo = "JingDataStateSwitch-JingDataStateSwitch";
+		};
+		7D7B3A24837EE8B4CC4691BE22640120 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 222D5C82884C1286E0CEE0DDA4CB6AD4;
+			remoteInfo = JingDataPhoneScreen;
+		};
+		99F7BD53BD1FB3A264EAE68CE9DB8D55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EAD77F31F1DF671BC4F228011765959;
+			remoteInfo = JingDataStateSwitch;
+		};
+		A64FCFC09BE38627115AD1BE89C7B166 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 222D5C82884C1286E0CEE0DDA4CB6AD4;
+			remoteInfo = JingDataPhoneScreen;
+		};
+		CCC124093411D78077B59583FA1C2DAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2770FA219C3F6AF776CAB052BB3F34BB;
+			remoteInfo = JingDataPodResourceLoader;
+		};
+		E78D8B61208C11795D11B9BD510D1C78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2770FA219C3F6AF776CAB052BB3F34BB;
+			remoteInfo = JingDataPodResourceLoader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		050485554E19273AFF3DC0C9B423E0D4 /* JingDataPodResourceLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JingDataPodResourceLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07388172D3118AD94474225B611819A6 /* Pods-JingDataStateSwitch_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JingDataStateSwitch_Example-resources.sh"; sourceTree = "<group>"; };
+		0A2D479EB42B282A8864A76D978D95A4 /* Pods-JingDataStateSwitch_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JingDataStateSwitch_Tests-dummy.m"; sourceTree = "<group>"; };
+		1840C8A0DEACAAD2D1ECF8D9F25D2ADA /* ResourceBundle-JingDataStateSwitch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JingDataStateSwitch-Info.plist"; sourceTree = "<group>"; };
+		1C8C47B029F8711806C6101EF11A4888 /* Pods-JingDataStateSwitch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JingDataStateSwitch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1ECFC3FA7C1F2C9F3A86683B13CA9F57 /* JingDataPhoneScreen-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JingDataPhoneScreen-dummy.m"; sourceTree = "<group>"; };
+		247343EED99089B972091F2C3917C5B1 /* JingDataStateSwitch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JingDataStateSwitch.xcconfig; sourceTree = "<group>"; };
+		338FA130B2413CD5B83B660C7767A0DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E40F430384172232C5F31FFB52B408F /* Pods-JingDataStateSwitch_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JingDataStateSwitch_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4044ED5A57139B5C2643FD5D66F08BFE /* JingDataPhoneScreen.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JingDataPhoneScreen.modulemap; sourceTree = "<group>"; };
+		439A6368443EBF414BADBC36FAF00ACE /* common_placeholder_noAuth@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "common_placeholder_noAuth@2x.png"; path = "JingDataStateSwitch/Assets/common_placeholder_noAuth@2x.png"; sourceTree = "<group>"; };
+		43ABA581E21382342B89E4B7E6B1B68B /* Pods-JingDataStateSwitch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JingDataStateSwitch_Tests.modulemap"; sourceTree = "<group>"; };
+		5ABBA771AC4221979204EC7F5896FB95 /* common_toast_loading@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "common_toast_loading@2x.png"; path = "JingDataStateSwitch/Assets/common_toast_loading@2x.png"; sourceTree = "<group>"; };
+		5D33EEF34FB8936B80662CC9F79A220B /* JingDataPodResourceLoader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JingDataPodResourceLoader-prefix.pch"; sourceTree = "<group>"; };
+		5E78C4AED810F9F2ABF78B66AF3C37EB /* JingDataPhoneScreen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JingDataPhoneScreen.swift; path = JingDataPhoneScreen/Classes/JingDataPhoneScreen.swift; sourceTree = "<group>"; };
+		63C8EB382DEB87B9946B43BD6DD144BC /* Pods-JingDataStateSwitch_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JingDataStateSwitch_Example.modulemap"; sourceTree = "<group>"; };
+		697058E75C94837468B25203F0107197 /* JingDataPodResourceLoader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JingDataPodResourceLoader-dummy.m"; sourceTree = "<group>"; };
+		6D37288647C44B7D6C31E96726BD0BF2 /* JingDataStateSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JingDataStateSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70CB1BEA44AC55F6D37D78EAD4D499B6 /* Pods-JingDataStateSwitch_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JingDataStateSwitch_Example-umbrella.h"; sourceTree = "<group>"; };
+		770577B4CCD47733CCDF43EAA057D3EE /* JingDataPhoneScreen-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JingDataPhoneScreen-umbrella.h"; sourceTree = "<group>"; };
+		7DD718D296AE9AF77195304918141650 /* Pods-JingDataStateSwitch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JingDataStateSwitch_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8055B2693004E7E4F9AF7F312F24DDA1 /* Pods-JingDataStateSwitch_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JingDataStateSwitch_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		88F26D2AC95ED957468C47122194427B /* common_placeholder_error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "common_placeholder_error@3x.png"; path = "JingDataStateSwitch/Assets/common_placeholder_error@3x.png"; sourceTree = "<group>"; };
+		8914886CE6D0722EDBC06BC8D86874A5 /* Pods-JingDataStateSwitch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JingDataStateSwitch_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8D7C01E13B6448E1CF79ABAB4714141E /* JingDataPodResourceLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JingDataPodResourceLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DAE1056E83D13896400318171FE0007 /* JingDataPhoneScreen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JingDataPhoneScreen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F68A4BC787FAE27DFCE43C9D9EB3E12 /* common_placeholder_noAuth@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "common_placeholder_noAuth@3x.png"; path = "JingDataStateSwitch/Assets/common_placeholder_noAuth@3x.png"; sourceTree = "<group>"; };
+		9376D9F12A105A9DA40D700432267B4C /* JingDataPodResourceLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JingDataPodResourceLoader.swift; path = JingDataPodResourceLoader/Classes/JingDataPodResourceLoader.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94E593F83C549DD57F1A28DE23170788 /* Pods-JingDataStateSwitch_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JingDataStateSwitch_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9798C8BE9861F46B65849A26677E930D /* Pods-JingDataStateSwitch_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JingDataStateSwitch_Example-dummy.m"; sourceTree = "<group>"; };
+		988E45AD2AB9E23EC5AC5B854029CB62 /* JingDataStateSwitch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JingDataStateSwitch-umbrella.h"; sourceTree = "<group>"; };
+		99529C224B34AD60FE464753A0D56211 /* Pods-JingDataStateSwitch_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JingDataStateSwitch_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9B315C817F7A388FE29984B4FB707403 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9B4A437A47DADC79258BCE2EFD3BCB34 /* Pods_JingDataStateSwitch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JingDataStateSwitch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A085FEC8BF6FCA8B99A1318A0F25B7DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A244E295BF40990290EBEE5B90690CA2 /* common_placeholder_nodata@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "common_placeholder_nodata@3x.png"; path = "JingDataStateSwitch/Assets/common_placeholder_nodata@3x.png"; sourceTree = "<group>"; };
+		A2F439EEBB68D2455A2A9633C30FC1A9 /* common_placeholder_error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "common_placeholder_error@2x.png"; path = "JingDataStateSwitch/Assets/common_placeholder_error@2x.png"; sourceTree = "<group>"; };
+		A7537E38EAC85D0DF2275B60524E9B5F /* JingDataStateSwitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JingDataStateSwitch-dummy.m"; sourceTree = "<group>"; };
+		A8DA49F38A84F1D6A1120857199437E9 /* Pods-JingDataStateSwitch_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JingDataStateSwitch_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B0558A1E0791734F0689B85F347511EB /* JingDataStateSwitch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = JingDataStateSwitch.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B3A64D5D20C273BF92230894C359F377 /* JingDataStateSwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JingDataStateSwitch.modulemap; sourceTree = "<group>"; };
+		B433C60DA142B235345DE7D60F3220F4 /* JingDataStateSwitch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JingDataStateSwitch-prefix.pch"; sourceTree = "<group>"; };
+		B689995D302C24F95003AC6FFB072AC0 /* JingDataStateSwitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JingDataStateSwitch.swift; path = JingDataStateSwitch/Classes/JingDataStateSwitch.swift; sourceTree = "<group>"; };
+		B76526ED5915567023B64262DA38443C /* JingDataPodResourceLoader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JingDataPodResourceLoader.xcconfig; sourceTree = "<group>"; };
+		BDEADC1185753653D2285BF2ABFE9BAB /* Pods-JingDataStateSwitch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JingDataStateSwitch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C037F63ED2F9D7AA1DCB40D7036AED9C /* Pods_JingDataStateSwitch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JingDataStateSwitch_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6AC27A71FEA6392811D68E20727A63 /* JingDataPhoneScreen-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JingDataPhoneScreen-prefix.pch"; sourceTree = "<group>"; };
+		D21E18B05DB8F7D49F303D955288E48C /* JingDataStateSwitch.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JingDataStateSwitch.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D297B34F84652C7393F98A2A3D643560 /* JingDataPhoneScreen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JingDataPhoneScreen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3726381B2709B36AFD3E63B9C5AB29B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE630DFDBF33EACB17E1B374EFC16AFB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E080511421E4618DBB143557BE854843 /* JingDataPodResourceLoader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JingDataPodResourceLoader-umbrella.h"; sourceTree = "<group>"; };
+		E200D7A697ADF2D380850B96CE9EB1B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF3280137E51E74108B244BF4873C7A3 /* common_toast_loading@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "common_toast_loading@3x.png"; path = "JingDataStateSwitch/Assets/common_toast_loading@3x.png"; sourceTree = "<group>"; };
+		EF5B87B6CDD82E5D492E95FF4625F8B2 /* Pods-JingDataStateSwitch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JingDataStateSwitch_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F0944D9960E76D646F6D000276F85F7E /* Pods-JingDataStateSwitch_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JingDataStateSwitch_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F132E9C5478045C7F7E9EF4B7C283E00 /* Pods-JingDataStateSwitch_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JingDataStateSwitch_Tests-resources.sh"; sourceTree = "<group>"; };
+		F25701437E2383CB9633AA5A46B35731 /* common_placeholder_nodata@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "common_placeholder_nodata@2x.png"; path = "JingDataStateSwitch/Assets/common_placeholder_nodata@2x.png"; sourceTree = "<group>"; };
+		F8AEC55F76F947EC0E51E7D450C6DE5A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC3112447065846516970F7B7B26BBA5 /* JingDataPodResourceLoader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JingDataPodResourceLoader.modulemap; sourceTree = "<group>"; };
+		FF6D9DD020A57D244E713A3BEFA5703D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FFC96B2041FC01E74C6A3EEFAE1256B5 /* JingDataPhoneScreen.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JingDataPhoneScreen.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		049B4AE42930BD0F3F334BB9781105F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B5EC2210D67AF639EAE2B31EFF56F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39085B785A90672E0C57DAFEA4434BD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E00140F705D97EB03AB8DE420337A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AB9117A02622BAF03570A6E98039A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9040D8E97FDF27B0E270C11AD030663D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF76A9F5E41246BB1D0C4B158270777 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D64340A40DE68E07A00B739D39895CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB8F4D41FE9B57DF3532656F36FF3F2 /* Foundation.framework in Frameworks */,
+				EFDBB8AD541EC6B72C979800ADFD5244 /* JingDataPhoneScreen.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE777D096FB3AD9D64083275A4FC755 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E072D81568673259D1E585374D239E3E /* Foundation.framework in Frameworks */,
+				D5B379484810A30D937B73E74B8D436E /* JingDataPhoneScreen.framework in Frameworks */,
+				3D5DD624E99149E40A4467236E94AC4D /* JingDataPodResourceLoader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BDE5CE9CF661BCA9167DAC5F01360E7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B0558A1E0791734F0689B85F347511EB /* JingDataStateSwitch.podspec */,
+				A085FEC8BF6FCA8B99A1318A0F25B7DA /* LICENSE */,
+				FF6D9DD020A57D244E713A3BEFA5703D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1F4307B3CE467F5680139337F1FDE95B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A2F439EEBB68D2455A2A9633C30FC1A9 /* common_placeholder_error@2x.png */,
+				88F26D2AC95ED957468C47122194427B /* common_placeholder_error@3x.png */,
+				439A6368443EBF414BADBC36FAF00ACE /* common_placeholder_noAuth@2x.png */,
+				8F68A4BC787FAE27DFCE43C9D9EB3E12 /* common_placeholder_noAuth@3x.png */,
+				F25701437E2383CB9633AA5A46B35731 /* common_placeholder_nodata@2x.png */,
+				A244E295BF40990290EBEE5B90690CA2 /* common_placeholder_nodata@3x.png */,
+				5ABBA771AC4221979204EC7F5896FB95 /* common_toast_loading@2x.png */,
+				EF3280137E51E74108B244BF4873C7A3 /* common_toast_loading@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2725247145CAB1D14ECA2427DBD25A32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DAE1056E83D13896400318171FE0007 /* JingDataPhoneScreen.framework */,
+				050485554E19273AFF3DC0C9B423E0D4 /* JingDataPodResourceLoader.framework */,
+				FB4633D5F68E33A63C1C0B71A5985D17 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3674A4F31C6CF69DF9CD775F0C3BEABD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				338FA130B2413CD5B83B660C7767A0DB /* Info.plist */,
+				4044ED5A57139B5C2643FD5D66F08BFE /* JingDataPhoneScreen.modulemap */,
+				FFC96B2041FC01E74C6A3EEFAE1256B5 /* JingDataPhoneScreen.xcconfig */,
+				1ECFC3FA7C1F2C9F3A86683B13CA9F57 /* JingDataPhoneScreen-dummy.m */,
+				CC6AC27A71FEA6392811D68E20727A63 /* JingDataPhoneScreen-prefix.pch */,
+				770577B4CCD47733CCDF43EAA057D3EE /* JingDataPhoneScreen-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JingDataPhoneScreen";
+			sourceTree = "<group>";
+		};
+		595E732175282D035D7C70B05E48A670 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D297B34F84652C7393F98A2A3D643560 /* JingDataPhoneScreen.framework */,
+				8D7C01E13B6448E1CF79ABAB4714141E /* JingDataPodResourceLoader.framework */,
+				D21E18B05DB8F7D49F303D955288E48C /* JingDataStateSwitch.bundle */,
+				6D37288647C44B7D6C31E96726BD0BF2 /* JingDataStateSwitch.framework */,
+				C037F63ED2F9D7AA1DCB40D7036AED9C /* Pods_JingDataStateSwitch_Example.framework */,
+				9B4A437A47DADC79258BCE2EFD3BCB34 /* Pods_JingDataStateSwitch_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BC1A5EA3B2BA5AE684A989606E69670 /* JingDataPodResourceLoader */ = {
+			isa = PBXGroup;
+			children = (
+				9376D9F12A105A9DA40D700432267B4C /* JingDataPodResourceLoader.swift */,
+				6C1573E87E7DC295A85C640E2EFABE39 /* Support Files */,
+			);
+			path = JingDataPodResourceLoader;
+			sourceTree = "<group>";
+		};
+		6C1573E87E7DC295A85C640E2EFABE39 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E200D7A697ADF2D380850B96CE9EB1B4 /* Info.plist */,
+				FC3112447065846516970F7B7B26BBA5 /* JingDataPodResourceLoader.modulemap */,
+				B76526ED5915567023B64262DA38443C /* JingDataPodResourceLoader.xcconfig */,
+				697058E75C94837468B25203F0107197 /* JingDataPodResourceLoader-dummy.m */,
+				5D33EEF34FB8936B80662CC9F79A220B /* JingDataPodResourceLoader-prefix.pch */,
+				E080511421E4618DBB143557BE854843 /* JingDataPodResourceLoader-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JingDataPodResourceLoader";
+			sourceTree = "<group>";
+		};
+		798501D1F6356BDEA9EEE76B6F249307 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A5BE99137004EFA0260A0017407F915 /* JingDataStateSwitch */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				798501D1F6356BDEA9EEE76B6F249307 /* Development Pods */,
+				2725247145CAB1D14ECA2427DBD25A32 /* Frameworks */,
+				ADD75856B6B4EC3F8CB81D54643FF79E /* Pods */,
+				595E732175282D035D7C70B05E48A670 /* Products */,
+				D3D71CA8650A275D206F11AA839F4E9B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7FCF74783349B4326781CEE447C063F5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE630DFDBF33EACB17E1B374EFC16AFB /* Info.plist */,
+				B3A64D5D20C273BF92230894C359F377 /* JingDataStateSwitch.modulemap */,
+				247343EED99089B972091F2C3917C5B1 /* JingDataStateSwitch.xcconfig */,
+				A7537E38EAC85D0DF2275B60524E9B5F /* JingDataStateSwitch-dummy.m */,
+				B433C60DA142B235345DE7D60F3220F4 /* JingDataStateSwitch-prefix.pch */,
+				988E45AD2AB9E23EC5AC5B854029CB62 /* JingDataStateSwitch-umbrella.h */,
+				1840C8A0DEACAAD2D1ECF8D9F25D2ADA /* ResourceBundle-JingDataStateSwitch-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JingDataStateSwitch";
+			sourceTree = "<group>";
+		};
+		9A5BE99137004EFA0260A0017407F915 /* JingDataStateSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				B689995D302C24F95003AC6FFB072AC0 /* JingDataStateSwitch.swift */,
+				0BDE5CE9CF661BCA9167DAC5F01360E7 /* Pod */,
+				1F4307B3CE467F5680139337F1FDE95B /* Resources */,
+				7FCF74783349B4326781CEE447C063F5 /* Support Files */,
+			);
+			name = JingDataStateSwitch;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A5E24E5D9572A29051287A73A801C634 /* JingDataPhoneScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5E78C4AED810F9F2ABF78B66AF3C37EB /* JingDataPhoneScreen.swift */,
+				3674A4F31C6CF69DF9CD775F0C3BEABD /* Support Files */,
+			);
+			path = JingDataPhoneScreen;
+			sourceTree = "<group>";
+		};
+		ADD75856B6B4EC3F8CB81D54643FF79E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5E24E5D9572A29051287A73A801C634 /* JingDataPhoneScreen */,
+				5BC1A5EA3B2BA5AE684A989606E69670 /* JingDataPodResourceLoader */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B39434CE724E898E553F5F774600470E /* Pods-JingDataStateSwitch_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F8AEC55F76F947EC0E51E7D450C6DE5A /* Info.plist */,
+				43ABA581E21382342B89E4B7E6B1B68B /* Pods-JingDataStateSwitch_Tests.modulemap */,
+				3E40F430384172232C5F31FFB52B408F /* Pods-JingDataStateSwitch_Tests-acknowledgements.markdown */,
+				BDEADC1185753653D2285BF2ABFE9BAB /* Pods-JingDataStateSwitch_Tests-acknowledgements.plist */,
+				0A2D479EB42B282A8864A76D978D95A4 /* Pods-JingDataStateSwitch_Tests-dummy.m */,
+				94E593F83C549DD57F1A28DE23170788 /* Pods-JingDataStateSwitch_Tests-frameworks.sh */,
+				F132E9C5478045C7F7E9EF4B7C283E00 /* Pods-JingDataStateSwitch_Tests-resources.sh */,
+				99529C224B34AD60FE464753A0D56211 /* Pods-JingDataStateSwitch_Tests-umbrella.h */,
+				1C8C47B029F8711806C6101EF11A4888 /* Pods-JingDataStateSwitch_Tests.debug.xcconfig */,
+				7DD718D296AE9AF77195304918141650 /* Pods-JingDataStateSwitch_Tests.release.xcconfig */,
+			);
+			name = "Pods-JingDataStateSwitch_Tests";
+			path = "Target Support Files/Pods-JingDataStateSwitch_Tests";
+			sourceTree = "<group>";
+		};
+		D3D71CA8650A275D206F11AA839F4E9B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF307065E2B9FE64C873A2699486235A /* Pods-JingDataStateSwitch_Example */,
+				B39434CE724E898E553F5F774600470E /* Pods-JingDataStateSwitch_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DF307065E2B9FE64C873A2699486235A /* Pods-JingDataStateSwitch_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D3726381B2709B36AFD3E63B9C5AB29B /* Info.plist */,
+				63C8EB382DEB87B9946B43BD6DD144BC /* Pods-JingDataStateSwitch_Example.modulemap */,
+				F0944D9960E76D646F6D000276F85F7E /* Pods-JingDataStateSwitch_Example-acknowledgements.markdown */,
+				8055B2693004E7E4F9AF7F312F24DDA1 /* Pods-JingDataStateSwitch_Example-acknowledgements.plist */,
+				9798C8BE9861F46B65849A26677E930D /* Pods-JingDataStateSwitch_Example-dummy.m */,
+				A8DA49F38A84F1D6A1120857199437E9 /* Pods-JingDataStateSwitch_Example-frameworks.sh */,
+				07388172D3118AD94474225B611819A6 /* Pods-JingDataStateSwitch_Example-resources.sh */,
+				70CB1BEA44AC55F6D37D78EAD4D499B6 /* Pods-JingDataStateSwitch_Example-umbrella.h */,
+				EF5B87B6CDD82E5D492E95FF4625F8B2 /* Pods-JingDataStateSwitch_Example.debug.xcconfig */,
+				8914886CE6D0722EDBC06BC8D86874A5 /* Pods-JingDataStateSwitch_Example.release.xcconfig */,
+			);
+			name = "Pods-JingDataStateSwitch_Example";
+			path = "Target Support Files/Pods-JingDataStateSwitch_Example";
+			sourceTree = "<group>";
+		};
+		FB4633D5F68E33A63C1C0B71A5985D17 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9B315C817F7A388FE29984B4FB707403 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0BA3A2371B34CB63BD31DE6B530974C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5C6746CB3958448A2DB4637ADE9A66 /* Pods-JingDataStateSwitch_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33C968B18B98C3F67FD8EEA4DF1486E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96281F37516E933993DCB016B87602EC /* JingDataPhoneScreen-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		696263533CFA836AFCF30FBB997DF669 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E426FB7551C95A61198F98D4E399633 /* JingDataStateSwitch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EE329665DBD15F7911D74AF07FE64CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C30C061A4890B2AEA202F040288FC6 /* Pods-JingDataStateSwitch_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97ABB454C8F921E7FED851F008119C2C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373EF418D919405FE3809A584DBE9DD2 /* JingDataPodResourceLoader-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		222D5C82884C1286E0CEE0DDA4CB6AD4 /* JingDataPhoneScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F27FB4F98DF1ACE97DB0A8B397ED6171 /* Build configuration list for PBXNativeTarget "JingDataPhoneScreen" */;
+			buildPhases = (
+				49A619BF5E7EA9A75FD3588003DDCA5A /* Sources */,
+				39085B785A90672E0C57DAFEA4434BD7 /* Frameworks */,
+				33C968B18B98C3F67FD8EEA4DF1486E6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JingDataPhoneScreen;
+			productName = JingDataPhoneScreen;
+			productReference = D297B34F84652C7393F98A2A3D643560 /* JingDataPhoneScreen.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2770FA219C3F6AF776CAB052BB3F34BB /* JingDataPodResourceLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7A795597360E08BAB37F40E82DE0EF1 /* Build configuration list for PBXNativeTarget "JingDataPodResourceLoader" */;
+			buildPhases = (
+				E458758BAFC83B249BEA5FCDFA81FA17 /* Sources */,
+				D64340A40DE68E07A00B739D39895CB1 /* Frameworks */,
+				97ABB454C8F921E7FED851F008119C2C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B833531E0AF24F9592426451FA9B39B3 /* PBXTargetDependency */,
+			);
+			name = JingDataPodResourceLoader;
+			productName = JingDataPodResourceLoader;
+			productReference = 8D7C01E13B6448E1CF79ABAB4714141E /* JingDataPodResourceLoader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3EAD77F31F1DF671BC4F228011765959 /* JingDataStateSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A53A288FD1AA16D089BB855E5C923E9 /* Build configuration list for PBXNativeTarget "JingDataStateSwitch" */;
+			buildPhases = (
+				E7359AF2E060097E3182E5E55F037EAF /* Sources */,
+				FCE777D096FB3AD9D64083275A4FC755 /* Frameworks */,
+				50867ED405F56C835732B9C1B45D4CFB /* Resources */,
+				696263533CFA836AFCF30FBB997DF669 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9174CADCE4CBBA32174A60527F43DF9 /* PBXTargetDependency */,
+				C494C8FED1C61537688D18EC3911A916 /* PBXTargetDependency */,
+				45599E9C487C977EABA02F1165284CA7 /* PBXTargetDependency */,
+			);
+			name = JingDataStateSwitch;
+			productName = JingDataStateSwitch;
+			productReference = 6D37288647C44B7D6C31E96726BD0BF2 /* JingDataStateSwitch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CDEA1B5C6BF90949A763D4F669E547EF /* Pods-JingDataStateSwitch_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E84EE683662707CD538146D327098FB /* Build configuration list for PBXNativeTarget "Pods-JingDataStateSwitch_Example" */;
+			buildPhases = (
+				6F8796A4F6F5BD752D0C510B11F07A36 /* Sources */,
+				049B4AE42930BD0F3F334BB9781105F0 /* Frameworks */,
+				0BA3A2371B34CB63BD31DE6B530974C8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88A3CFCB26198E9EC609359E06A35114 /* PBXTargetDependency */,
+				DA0F0E1FCB05B89E5404C801C4E64DAB /* PBXTargetDependency */,
+				92AF8B49438AF5EC8BE09C995BC83FCE /* PBXTargetDependency */,
+			);
+			name = "Pods-JingDataStateSwitch_Example";
+			productName = "Pods-JingDataStateSwitch_Example";
+			productReference = C037F63ED2F9D7AA1DCB40D7036AED9C /* Pods_JingDataStateSwitch_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2E39EE436B0E47677BBF563B9EC6894 /* Pods-JingDataStateSwitch_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64698D94CFFFA67D5399C21A356908D7 /* Build configuration list for PBXNativeTarget "Pods-JingDataStateSwitch_Tests" */;
+			buildPhases = (
+				7C90932CDC614AF329D6F5D757BF2328 /* Sources */,
+				9040D8E97FDF27B0E270C11AD030663D /* Frameworks */,
+				6EE329665DBD15F7911D74AF07FE64CA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D3C4869527166DB56625F6CDDF85A0E /* PBXTargetDependency */,
+			);
+			name = "Pods-JingDataStateSwitch_Tests";
+			productName = "Pods-JingDataStateSwitch_Tests";
+			productReference = 9B4A437A47DADC79258BCE2EFD3BCB34 /* Pods_JingDataStateSwitch_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FAD528D74172839EF9C73CF78C3C2A18 /* JingDataStateSwitch-JingDataStateSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 365D39E0BFCF04E0C5D5B3973609FE50 /* Build configuration list for PBXNativeTarget "JingDataStateSwitch-JingDataStateSwitch" */;
+			buildPhases = (
+				9B8880C2CA69D50BD217DCDE58F8E51D /* Sources */,
+				7AB9117A02622BAF03570A6E98039A5A /* Frameworks */,
+				1DCFABD9822E9315FF26BA2E8380B96C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JingDataStateSwitch-JingDataStateSwitch";
+			productName = "JingDataStateSwitch-JingDataStateSwitch";
+			productReference = D21E18B05DB8F7D49F303D955288E48C /* JingDataStateSwitch.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0940;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 595E732175282D035D7C70B05E48A670 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				222D5C82884C1286E0CEE0DDA4CB6AD4 /* JingDataPhoneScreen */,
+				2770FA219C3F6AF776CAB052BB3F34BB /* JingDataPodResourceLoader */,
+				3EAD77F31F1DF671BC4F228011765959 /* JingDataStateSwitch */,
+				FAD528D74172839EF9C73CF78C3C2A18 /* JingDataStateSwitch-JingDataStateSwitch */,
+				CDEA1B5C6BF90949A763D4F669E547EF /* Pods-JingDataStateSwitch_Example */,
+				D2E39EE436B0E47677BBF563B9EC6894 /* Pods-JingDataStateSwitch_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DCFABD9822E9315FF26BA2E8380B96C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4840624D2B4451AAD154B5EFBC572E /* common_placeholder_error@2x.png in Resources */,
+				6D2EBB9ED1445504EBF31DC73B63DE45 /* common_placeholder_error@3x.png in Resources */,
+				B93A33D633E026A6B4F426B0C63792A3 /* common_placeholder_noAuth@2x.png in Resources */,
+				B27314FCA842CBF901BF5B5833A8AD13 /* common_placeholder_noAuth@3x.png in Resources */,
+				F4B5264B8FB73D11636DFE7E23E70BF7 /* common_placeholder_nodata@2x.png in Resources */,
+				D01166C666D1F48B6C5332184EF173D5 /* common_placeholder_nodata@3x.png in Resources */,
+				1AFE273A67F5EE4C776434018B6EBB19 /* common_toast_loading@2x.png in Resources */,
+				EDF2B8FE35C44FF0AB9654BAA9B2F30C /* common_toast_loading@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50867ED405F56C835732B9C1B45D4CFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB5F0AB11AE99DA431B3EC035CC126D /* JingDataStateSwitch.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49A619BF5E7EA9A75FD3588003DDCA5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C3474DDF14F6488BEAD8FF652EE6BC /* JingDataPhoneScreen-dummy.m in Sources */,
+				3CE3E305859FDF95E2D8012D42A9F902 /* JingDataPhoneScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F8796A4F6F5BD752D0C510B11F07A36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0338F515E64A08C5FFF55E816D6719C7 /* Pods-JingDataStateSwitch_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C90932CDC614AF329D6F5D757BF2328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666FF0D5243A5A06FAC4BE69E74061A9 /* Pods-JingDataStateSwitch_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B8880C2CA69D50BD217DCDE58F8E51D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E458758BAFC83B249BEA5FCDFA81FA17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8F01F5C71D98CE8771725790A433A4 /* JingDataPodResourceLoader-dummy.m in Sources */,
+				CF6AFEB6DA3EEF59E3539D06E494F5A1 /* JingDataPodResourceLoader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7359AF2E060097E3182E5E55F037EAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0558A83D32F1A2C6F53609EF7F48B997 /* JingDataStateSwitch-dummy.m in Sources */,
+				390A51FE7C9CAF59F168788B055AB825 /* JingDataStateSwitch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45599E9C487C977EABA02F1165284CA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JingDataStateSwitch-JingDataStateSwitch";
+			target = FAD528D74172839EF9C73CF78C3C2A18 /* JingDataStateSwitch-JingDataStateSwitch */;
+			targetProxy = 750AF7DA1AFA892EBC474F21A76769E9 /* PBXContainerItemProxy */;
+		};
+		4D3C4869527166DB56625F6CDDF85A0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JingDataStateSwitch_Example";
+			target = CDEA1B5C6BF90949A763D4F669E547EF /* Pods-JingDataStateSwitch_Example */;
+			targetProxy = 0B0E91E3042569D3ECAD229C4E2FB6E0 /* PBXContainerItemProxy */;
+		};
+		88A3CFCB26198E9EC609359E06A35114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JingDataPhoneScreen;
+			target = 222D5C82884C1286E0CEE0DDA4CB6AD4 /* JingDataPhoneScreen */;
+			targetProxy = A64FCFC09BE38627115AD1BE89C7B166 /* PBXContainerItemProxy */;
+		};
+		92AF8B49438AF5EC8BE09C995BC83FCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JingDataStateSwitch;
+			target = 3EAD77F31F1DF671BC4F228011765959 /* JingDataStateSwitch */;
+			targetProxy = 99F7BD53BD1FB3A264EAE68CE9DB8D55 /* PBXContainerItemProxy */;
+		};
+		B833531E0AF24F9592426451FA9B39B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JingDataPhoneScreen;
+			target = 222D5C82884C1286E0CEE0DDA4CB6AD4 /* JingDataPhoneScreen */;
+			targetProxy = 18C7388D9C26DB672F021BAAB2748551 /* PBXContainerItemProxy */;
+		};
+		C494C8FED1C61537688D18EC3911A916 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JingDataPodResourceLoader;
+			target = 2770FA219C3F6AF776CAB052BB3F34BB /* JingDataPodResourceLoader */;
+			targetProxy = E78D8B61208C11795D11B9BD510D1C78 /* PBXContainerItemProxy */;
+		};
+		C9174CADCE4CBBA32174A60527F43DF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JingDataPhoneScreen;
+			target = 222D5C82884C1286E0CEE0DDA4CB6AD4 /* JingDataPhoneScreen */;
+			targetProxy = 7D7B3A24837EE8B4CC4691BE22640120 /* PBXContainerItemProxy */;
+		};
+		DA0F0E1FCB05B89E5404C801C4E64DAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JingDataPodResourceLoader;
+			target = 2770FA219C3F6AF776CAB052BB3F34BB /* JingDataPodResourceLoader */;
+			targetProxy = CCC124093411D78077B59583FA1C2DAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F4D6585B160C99FAC638E9B42264261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 247343EED99089B972091F2C3917C5B1 /* JingDataStateSwitch.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JingDataStateSwitch";
+				INFOPLIST_FILE = "Target Support Files/JingDataStateSwitch/ResourceBundle-JingDataStateSwitch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = JingDataStateSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		11B7A2B3383C6664149966D915D703A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 247343EED99089B972091F2C3917C5B1 /* JingDataStateSwitch.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JingDataStateSwitch";
+				INFOPLIST_FILE = "Target Support Files/JingDataStateSwitch/ResourceBundle-JingDataStateSwitch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = JingDataStateSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3E1DE358BF3BC4E86F09E956F18069B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8914886CE6D0722EDBC06BC8D86874A5 /* Pods-JingDataStateSwitch_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JingDataStateSwitch_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JingDataStateSwitch_Example/Pods-JingDataStateSwitch_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5067A871D6AA97FCEEC5BAAF65740F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFC96B2041FC01E74C6A3EEFAE1256B5 /* JingDataPhoneScreen.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JingDataPhoneScreen/JingDataPhoneScreen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JingDataPhoneScreen/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JingDataPhoneScreen/JingDataPhoneScreen.modulemap";
+				PRODUCT_MODULE_NAME = JingDataPhoneScreen;
+				PRODUCT_NAME = JingDataPhoneScreen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		568EE22179DD471656C1BF77AAB9F693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DD718D296AE9AF77195304918141650 /* Pods-JingDataStateSwitch_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JingDataStateSwitch_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JingDataStateSwitch_Tests/Pods-JingDataStateSwitch_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		76BFE3D9903F875FFDB5EF7619EE009C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF5B87B6CDD82E5D492E95FF4625F8B2 /* Pods-JingDataStateSwitch_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JingDataStateSwitch_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JingDataStateSwitch_Example/Pods-JingDataStateSwitch_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		83020D1763C98B103ABF5D16DE89B28F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B76526ED5915567023B64262DA38443C /* JingDataPodResourceLoader.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JingDataPodResourceLoader/JingDataPodResourceLoader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JingDataPodResourceLoader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JingDataPodResourceLoader/JingDataPodResourceLoader.modulemap";
+				PRODUCT_MODULE_NAME = JingDataPodResourceLoader;
+				PRODUCT_NAME = JingDataPodResourceLoader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AA72F3C1E978D0B183E92284B94BD370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 247343EED99089B972091F2C3917C5B1 /* JingDataStateSwitch.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JingDataStateSwitch/JingDataStateSwitch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JingDataStateSwitch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JingDataStateSwitch/JingDataStateSwitch.modulemap";
+				PRODUCT_MODULE_NAME = JingDataStateSwitch;
+				PRODUCT_NAME = JingDataStateSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C152CAADF3E0F9491A15EDCA8063174B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFC96B2041FC01E74C6A3EEFAE1256B5 /* JingDataPhoneScreen.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JingDataPhoneScreen/JingDataPhoneScreen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JingDataPhoneScreen/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JingDataPhoneScreen/JingDataPhoneScreen.modulemap";
+				PRODUCT_MODULE_NAME = JingDataPhoneScreen;
+				PRODUCT_NAME = JingDataPhoneScreen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5CA5B8CD196EBAA077C7F02EC137F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B76526ED5915567023B64262DA38443C /* JingDataPodResourceLoader.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JingDataPodResourceLoader/JingDataPodResourceLoader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JingDataPodResourceLoader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JingDataPodResourceLoader/JingDataPodResourceLoader.modulemap";
+				PRODUCT_MODULE_NAME = JingDataPodResourceLoader;
+				PRODUCT_NAME = JingDataPodResourceLoader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CBDFA878ACFA4E21B5B3A49234113716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C8C47B029F8711806C6101EF11A4888 /* Pods-JingDataStateSwitch_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JingDataStateSwitch_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JingDataStateSwitch_Tests/Pods-JingDataStateSwitch_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DFC7C487E50793221AD598B7065A1337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 247343EED99089B972091F2C3917C5B1 /* JingDataStateSwitch.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JingDataStateSwitch/JingDataStateSwitch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JingDataStateSwitch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JingDataStateSwitch/JingDataStateSwitch.modulemap";
+				PRODUCT_MODULE_NAME = JingDataStateSwitch;
+				PRODUCT_NAME = JingDataStateSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E84EE683662707CD538146D327098FB /* Build configuration list for PBXNativeTarget "Pods-JingDataStateSwitch_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76BFE3D9903F875FFDB5EF7619EE009C /* Debug */,
+				3E1DE358BF3BC4E86F09E956F18069B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A53A288FD1AA16D089BB855E5C923E9 /* Build configuration list for PBXNativeTarget "JingDataStateSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA72F3C1E978D0B183E92284B94BD370 /* Debug */,
+				DFC7C487E50793221AD598B7065A1337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		365D39E0BFCF04E0C5D5B3973609FE50 /* Build configuration list for PBXNativeTarget "JingDataStateSwitch-JingDataStateSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B7A2B3383C6664149966D915D703A8 /* Debug */,
+				0F4D6585B160C99FAC638E9B42264261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64698D94CFFFA67D5399C21A356908D7 /* Build configuration list for PBXNativeTarget "Pods-JingDataStateSwitch_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBDFA878ACFA4E21B5B3A49234113716 /* Debug */,
+				568EE22179DD471656C1BF77AAB9F693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F27FB4F98DF1ACE97DB0A8B397ED6171 /* Build configuration list for PBXNativeTarget "JingDataPhoneScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C152CAADF3E0F9491A15EDCA8063174B /* Debug */,
+				5067A871D6AA97FCEEC5BAAF65740F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7A795597360E08BAB37F40E82DE0EF1 /* Build configuration list for PBXNativeTarget "JingDataPodResourceLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83020D1763C98B103ABF5D16DE89B28F /* Debug */,
+				C5CA5B8CD196EBAA077C7F02EC137F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

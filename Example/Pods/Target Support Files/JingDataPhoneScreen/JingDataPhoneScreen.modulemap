@@ -1,0 +1,6 @@
+framework module JingDataPhoneScreen {
+  umbrella header "JingDataPhoneScreen-umbrella.h"
+
+  export *
+  module * { export * }
+}

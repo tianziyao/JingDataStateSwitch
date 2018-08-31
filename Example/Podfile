@@ -1,5 +1,8 @@
 use_frameworks!
 
+source '/Users/Tian/.cocoapods/repos/TZYSpecs'
+source 'https://github.com/CocoaPods/Specs.git'
+
 target 'JingDataStateSwitch_Example' do
   pod 'JingDataStateSwitch', :path => '../'
 

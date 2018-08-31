@@ -1,0 +1,27 @@
+PODS:
+  - JingDataPhoneScreen (0.2.0)
+  - JingDataPodResourceLoader (0.2.0):
+    - JingDataPhoneScreen
+  - JingDataStateSwitch (0.1.0):
+    - JingDataPodResourceLoader
+
+DEPENDENCIES:
+  - JingDataStateSwitch (from `../`)
+
+SPEC REPOS:
+  "/Users/Tian/.cocoapods/repos/TZYSpecs":
+    - JingDataPhoneScreen
+    - JingDataPodResourceLoader
+
+EXTERNAL SOURCES:
+  JingDataStateSwitch:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JingDataPhoneScreen: fdc4c9548664da6e8d0205a3ac146a5e51fe1164
+  JingDataPodResourceLoader: aa322c7ba522aa70c5adb1001d64edbbd0cae4af
+  JingDataStateSwitch: 9633235ddb17834e806bb88b6927b9c4bb367882
+
+PODFILE CHECKSUM: 8d6ac1b095a331f3c180dbee16dace965685c563
+
+COCOAPODS: 1.5.3

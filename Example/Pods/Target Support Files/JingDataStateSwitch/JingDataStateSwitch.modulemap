@@ -1,0 +1,6 @@
+framework module JingDataStateSwitch {
+  umbrella header "JingDataStateSwitch-umbrella.h"
+
+  export *
+  module * { export * }
+}
