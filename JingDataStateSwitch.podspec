@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JingDataStateSwitch'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = '页面状态切换.'
 
   s.homepage         = 'https://github.com/tianziyao/JingDataStateSwitch'

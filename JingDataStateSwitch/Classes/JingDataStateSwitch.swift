@@ -32,7 +32,7 @@ public extension Notification.Name {
 
 @objc public protocol JingDataStateViewProtocol {
     var state: JingDataViewState { set get }
-    var from: String { set get }
+    var from: String { get }
 }
 
 public typealias JingDataStateView = UIView & JingDataStateViewProtocol
@@ -62,13 +62,8 @@ public extension JingDataStateSwitch {
         }
     }
     
-    public func setup(_ stateView: JingDataStateView, aboveView: UIView? = nil) {
+    public func setup(stateView: JingDataStateView = JingDataDefaultStateView(), aboveView: UIView? = nil) {
         self.stateView = stateView
-        self.aboveView = aboveView
-    }
-    
-    public func defaultStateSwitchSetup(_ aboveView: UIView? = nil) {
-        self.stateView = JingDataDefaultStateView()
         self.aboveView = aboveView
     }
     
@@ -198,7 +193,6 @@ extension UIColor {
     }
 }
 
-let bundle = Bundle.library(with: JingDataDefaultStateView.self, name: "JingDataStateSwitch")
 
 public class JingDataDefaultStateView: JingDataStateView {
     
@@ -211,10 +205,14 @@ public class JingDataDefaultStateView: JingDataStateView {
         }
     }
     
+    var bundle: Bundle? {
+        return Bundle.library(with: JingDataDefaultStateView.self, name: "JingDataStateSwitch")
+    }
+    
     var imageViewCenterYOffset: CGFloat = -72
     let progressAnimationKey = "StateView.progressAnimationKey"
     
-    let indicator: UIImageView = {
+    lazy var indicator: UIImageView = {
         let imageView = UIImageView()
         imageView.image = bundle?.image("common_toast_loading")?.withRenderingMode(UIImageRenderingMode.alwaysTemplate)
         imageView.clipsToBounds = true
@@ -224,14 +222,14 @@ public class JingDataDefaultStateView: JingDataStateView {
         return imageView
     }()
     
-    let imageView: UIImageView = {
+    lazy var imageView: UIImageView = {
         let view = UIImageView()
         view.sizeToFit()
         view.isHidden = true
         return view
     }()
     
-    let label: UILabel = {
+    lazy var label: UILabel = {
         let view = UILabel()
         view.backgroundColor = UIColor.clear
         view.font = UIFont.systemFont(ofSize: 13, weight: .thin)

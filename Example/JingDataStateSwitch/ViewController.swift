@@ -13,7 +13,7 @@ class ViewController: UIViewController, JingDataStateSwitch {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        defaultStateSwitchSetup()
+        setup(aboveView: nil)
     }
 
     override func didReceiveMemoryWarning() {
